@@ -1,9 +1,17 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom"; // Import useNavigate
 import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate(); // Initialize navigation hook
+
+  // Handler function for the button click
+  const handleRegisterClick = () => {
+    // navigate('/register');
+    navigate("/");
+    setIsMenuOpen(false); // Close menu if on mobile
+  };
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -28,7 +36,7 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="/"
+              to="/about"
               className="text-gray-700 hover:text-primary font-medium transition"
             >
               About
@@ -40,18 +48,25 @@ const Header = () => {
               Speakers
             </Link>
             <Link
-              to="/program"
+              // to="/program"
+              to="/"
               className="text-gray-700 hover:text-primary font-medium transition"
             >
               Program
             </Link>
             <Link
-              to="/venue"
+              // to="/venue"
+              to="/"
               className="text-gray-700 hover:text-primary font-medium transition"
             >
               Venue
             </Link>
-            <button className="bg-primary text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-800 transition shadow-sm">
+
+            {/* Kept as <button> with onClick handler */}
+            <button
+              onClick={handleRegisterClick}
+              className="bg-primary text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-800 transition shadow-sm"
+            >
               Register
             </button>
           </nav>
@@ -75,28 +90,46 @@ const Header = () => {
             <Link
               to="/"
               className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded-md"
+              onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               to="/about"
               className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded-md"
+              onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
               to="/speakers"
               className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded-md"
+              onClick={() => setIsMenuOpen(false)}
             >
               Speakers
             </Link>
             <Link
-              to="/program"
+              // to="/program"
+              to="/"
               className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded-md"
+              onClick={() => setIsMenuOpen(false)}
             >
               Program
             </Link>
-            <button className="w-full text-left mt-2 bg-primary text-white px-3 py-3 rounded-md font-semibold">
+            <Link
+              // to="/venue"
+              to="/"
+              className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded-md"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Venue
+            </Link>
+
+            {/* Kept as <button> with onClick handler */}
+            <button
+              onClick={handleRegisterClick}
+              className="w-full text-left mt-2 bg-primary text-white px-3 py-3 rounded-md font-semibold"
+            >
               Register Now
             </button>
           </div>
