@@ -106,12 +106,12 @@ const ProgramPage = () => {
             ))}
           </div>
           
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <p className="text-gray-600 mb-6">Interested in presenting your research?</p>
             <button className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">
               Submit an Abstract
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
 

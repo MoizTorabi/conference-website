@@ -48,15 +48,13 @@ const Header = () => {
               Speakers
             </Link>
             <Link
-              // to="/program"
-              to="/"
+              to="/program"
               className="text-gray-700 hover:text-primary font-medium transition"
             >
               Program
             </Link>
             <Link
-              // to="/venue"
-              to="/"
+              to="/venue"
               className="text-gray-700 hover:text-primary font-medium transition"
             >
               Venue
@@ -109,16 +107,14 @@ const Header = () => {
               Speakers
             </Link>
             <Link
-              // to="/program"
-              to="/"
+              to="/program"
               className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               Program
             </Link>
             <Link
-              // to="/venue"
-              to="/"
+              to="/venue"
               className="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
