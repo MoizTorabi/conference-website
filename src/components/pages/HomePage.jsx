@@ -36,8 +36,7 @@ const HomePage = () => {
           </p>
 
           <Link
-            // to="/register"
-            to="/"
+            to="/register"
             className="inline-block bg-white text-blue-900 px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl"
           >
             Register Now
