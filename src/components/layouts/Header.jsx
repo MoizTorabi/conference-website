@@ -8,8 +8,7 @@ const Header = () => {
 
   // Handler function for the button click
   const handleRegisterClick = () => {
-    // navigate('/register');
-    navigate("/");
+    navigate('/register');
     setIsMenuOpen(false); // Close menu if on mobile
   };
 
