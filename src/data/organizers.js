@@ -21,15 +21,15 @@ export const committeeIndia = [
     name: "Prof. Sachin B. Patkar", 
     org: "IIT Bombay", 
     link: "https://www.ee.iitb.ac.in/web/people/sachin-patkar/" 
-  }
-];
-
-export const committeeGermany = [
+  },
   { 
     name: "Dr. Maneesh K. Singh", 
     org: "BharatGen", 
     link: null 
-  },
+  }
+];
+
+export const committeeGermany = [
   { 
     name: "Prof. Christoph Burchard", 
     org: "Goethe University", 
