@@ -25,7 +25,7 @@ export const committeeIndia = [
   { 
     name: "Dr. Maneesh K. Singh", 
     org: "BharatGen", 
-    link: null 
+    link: "https://scholar.google.com/citations?user=hdQhiFgAAAAJ&hl=en"
   }
 ];
 
