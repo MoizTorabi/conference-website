@@ -113,7 +113,7 @@ const HomePage = () => {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-indigo-600 font-bold">•</span>
-                <span>20+ plenary speakers from Germany, India, USA</span>
+                <span>20+ plenary speakers from Germany, Netherland, India & USA</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-indigo-600 font-bold">•</span>
@@ -135,9 +135,8 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-
       {/* Call for Participation Section */}
-      <section className="bg-gradient-to-r from-indigo-600 via-blue-600 to-blue-700 text-white py-16 px-6">
+      {/* <section className="bg-gradient-to-r from-indigo-600 via-blue-600 to-blue-700 text-white py-16 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Call for Participation</h2>
 
@@ -191,16 +190,15 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </section>
-
+      </section> */}
       {/* Featured Speakers Preview */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold mb-4 text-gray-800 text-center">
-          Featured Speakers
+      <section className="max-w-6xl mx-auto px-6">
+        <h2 className="text-4xl font-bold mb-12 text-gray-800 text-center">
+          Distinguished Speakers
         </h2>
-        <p className="text-center text-gray-600 text-lg mb-12">
+        {/* <p className="text-center text-gray-600 text-lg mb-12">
           World-leading researchers from Germany, India, and USA
-        </p>
+        </p> */}
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* Speaker Card 1 */}

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Target, Users, Globe, ChevronRight, ExternalLink } from 'lucide-react';
-// Import the data from the new file
 import { coChairs, committeeIndia, committeeGermany } from '../../data/organizers';
 
 const AboutPage = () => {

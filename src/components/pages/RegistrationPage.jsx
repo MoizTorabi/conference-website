@@ -181,14 +181,14 @@ const RegistrationPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
               Registration Portal
             </h2>
-            <p className="text-gray-600">
+            {/* <p className="text-gray-600">
               Complete the form below to secure your seat.
-            </p>
+            </p> */}
           </div>
 
           {/* The Main Action Box */}
           <div className="bg-white p-8 rounded-2xl shadow-xl border border-gray-100 mb-10">
-            <div className="flex items-start gap-4 mb-6">
+            {/* <div className="flex items-start gap-4 mb-6">
               <div className="bg-blue-100 p-3 rounded-lg text-primary">
                 <Info size={24} />
               </div>
@@ -201,7 +201,7 @@ const RegistrationPage = () => {
                   same portal.
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <button
               onClick={handleRegister}
