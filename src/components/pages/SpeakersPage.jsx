@@ -106,8 +106,10 @@
 
 
 
+
+
 import React from 'react';
-import { User, MapPin } from 'lucide-react';
+import { User, MapPin, ExternalLink } from 'lucide-react';
 import { speakersData } from '../../data/speakers';
 
 const SpeakersPage = () => {
@@ -148,17 +150,17 @@ const SpeakerCard = ({ speaker }) => (
       <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
         <User size={24} />
       </div>
-      {/* Show Country Badge if available (useful since they are mixed now) */}
-      {speaker.country ? (
+      
+      {/* Country Badge */}
+      {/* {speaker.country ? (
         <span className="text-xs font-semibold bg-gray-100 text-gray-600 px-2 py-1 rounded">
           {speaker.country}
         </span>
       ) : (
-        /* Default to Germany if no country specified (based on your data structure) */
         <span className="text-xs font-semibold bg-gray-100 text-gray-600 px-2 py-1 rounded">
           Germany
         </span>
-      )}
+      )} */}
     </div>
     
     <h3 className="text-lg font-bold text-gray-900 mb-1">{speaker.name}</h3>
@@ -168,11 +170,29 @@ const SpeakerCard = ({ speaker }) => (
       <span>{speaker.university}</span>
     </div>
     
-    <div className="border-t border-gray-100 pt-3 mt-auto">
+    <div className="border-t border-gray-100 pt-3 mb-4 flex-grow">
       <p className="text-sm text-gray-600 leading-relaxed">
         {speaker.topics}
       </p>
     </div>
+
+    {/* Buttons for URL */}
+    {speaker.profileUrl ? (
+      <a
+        href={speaker.profileUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-auto w-full flex items-center justify-center gap-2 px-4 py-2 border border-blue-200 text-primary rounded-lg text-sm font-semibold hover:bg-blue-50 transition-colors"
+      >
+        View Profile
+        <ExternalLink size={14} />
+      </a>
+    ) : (
+      /* Optional: Show a disabled button if no link exists, or show nothing */
+      <button disabled className="mt-auto w-full px-4 py-2 border border-gray-100 text-gray-400 rounded-lg text-sm font-semibold cursor-not-allowed">
+        Profile Not Available
+      </button>
+    )}
   </div>
 );
 

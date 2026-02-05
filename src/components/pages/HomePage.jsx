@@ -207,13 +207,13 @@ const HomePage = () => {
               <Users className="w-10 h-10 text-blue-600" />
             </div>
             <h3 className="font-bold text-xl mb-2 text-gray-800">
-              Prof. Hannah Bast
+              Prof. Ganesh Ramakrishnan
             </h3>
             <p className="text-sm text-blue-600 font-semibold mb-3">
-              University of Freiburg
+              IIT Bombay
             </p>
             <p className="text-sm text-gray-600">
-              Applied algorithmics, route planning, information retrieval, NLP
+              Data-efficient machine learning, NLP, AI deployment, data programming
             </p>
           </div>
 
@@ -223,13 +223,13 @@ const HomePage = () => {
               <Users className="w-10 h-10 text-indigo-600" />
             </div>
             <h3 className="font-bold text-xl mb-2 text-gray-800">
-              Prof. Kristian Kersting
+              Prof. Kevin Bauer
             </h3>
             <p className="text-sm text-indigo-600 font-semibold mb-3">
-              TU Darmstadt
+              Goethe University
             </p>
             <p className="text-sm text-gray-600">
-              Statistical relational AI, deep probabilistic learning
+              Explainable AI, algorithmic transparency, causal machine learning, human information processing
             </p>
           </div>
 
@@ -254,7 +254,7 @@ const HomePage = () => {
         <div className="text-center">
           <Link
             to="/speakers"
-            className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all inline-flex items-center gap-2 shadow-lg"
+            className="bg-blue-600 mb-12 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all inline-flex items-center gap-2 shadow-lg"
           >
             View All Speakers
             <ArrowRight className="w-5 h-5" />
