@@ -233,7 +233,7 @@ const ProgramPage = () => {
       </div>
 
       {/* Research Tracks Section */}
-      <div className="bg-white py-16 px-6 border-t border-gray-200">
+      {/* <div className="bg-white py-16 px-6 border-t border-gray-200">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Research Tracks</h2>
           <div className="grid md:grid-cols-3 gap-4">
@@ -245,7 +245,7 @@ const ProgramPage = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );

@@ -123,9 +123,9 @@ const SpeakersPage = () => {
       <div className="bg-primary text-white py-16 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Distinguished Speakers</h1>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+          {/* <p className="text-xl text-blue-100 max-w-2xl mx-auto">
             Meet world-leading researchers joining us for IGCCC 2026.
-          </p>
+          </p> */}
         </div>
       </div>
 
