@@ -238,7 +238,7 @@ const VenuePage = () => {
                   <div>
                     <h4 className="font-bold text-gray-800">Air Travel</h4>
                     <p className="text-gray-600 text-sm">
-                      <strong>Mumbai International Airport (T2)</strong> is ~25 mins away.
+                      <strong>Mumbai International Airport(T2).</strong>
                     </p>
                   </div>
                 </div>
@@ -250,7 +250,7 @@ const VenuePage = () => {
                   <div>
                     <h4 className="font-bold text-gray-800">Train Stations</h4>
                     <p className="text-gray-600 text-sm">
-                      Nearest: <strong>Kanjurmarg</strong>, <strong>Ghatkopar</strong>, <strong>Andheri</strong>.
+                      Nearest: <strong>Kanjurmarg</strong>, <strong>Ghatkopar</strong>, <strong>Andheri.</strong>
                     </p>
                   </div>
                 </div>

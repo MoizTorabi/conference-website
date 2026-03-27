@@ -1,7 +1,7 @@
 export const programData = [
   {
     day: "Day 1",
-    date: "March 16, 2026",
+    date: "November 16, 2026",
     events: [
       { time: "Morning", title: "Inaugural Ceremony", type: "ceremony" },
       { time: "Morning", title: "Keynote: Critical Computation", type: "keynote" },
@@ -11,7 +11,7 @@ export const programData = [
   },
   {
     day: "Day 2",
-    date: "March 17, 2026",
+    date: "November 17, 2026",
     events: [
       { time: "Morning", title: "Session 2: AI & Interdisciplinary Models", type: "session" },
       { time: "Afternoon", title: "Germany–India Research Panels", type: "panel" },
@@ -20,7 +20,7 @@ export const programData = [
   },
   {
     day: "Day 3",
-    date: "March 18, 2026",
+    date: "November 18, 2026",
     events: [
       { time: "Morning", title: "Climate Modeling & Tipping Points", type: "session" },
       { time: "Afternoon", title: "Computational Social Science", type: "session" },
@@ -29,7 +29,7 @@ export const programData = [
   },
   {
     day: "Day 4",
-    date: "March 19, 2026",
+    date: "November 19, 2026",
     events: [
       { time: "Morning", title: "Legal-Tech & Digital Transformation", type: "session" },
       { time: "Afternoon", title: "Future Indo–German Cooperation", type: "panel" },

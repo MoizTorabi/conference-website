@@ -15,7 +15,7 @@ const HomePage = () => {
           <div className="flex flex-wrap items-center justify-center gap-6 text-xl mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-6 h-6" />
-              <span>March 16-19, 2026</span>
+              <span>November 16-19, 2026</span>
             </div>
             <span className="hidden md:inline">•</span>
             <div className="flex items-center gap-2">
